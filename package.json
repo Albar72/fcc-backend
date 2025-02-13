@@ -1,20 +1,15 @@
 {
-  "name": "fcc-backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Albar72/fcc-backend.git"
-  },
-  "keywords": [],
-  "author": "Jane Doe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Albar72/fcc-backend/issues"
-  },
-  "homepage": "https://github.com/Albar72/fcc-backend#readme",
-  "description": ""
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "Jane Doe",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+	}
 }
